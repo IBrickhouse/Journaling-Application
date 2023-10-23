@@ -2,7 +2,7 @@ async function greet() {
 
 }
 
-function post() {
+function postCheck() {
     if (document.getElementById("shareButton").checked) {
         console.log("Checked")
     }
