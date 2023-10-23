@@ -11,3 +11,7 @@ function postCheck() {
         location.reload();
     }
 }
+
+function deleteVent() {
+    location.reload();
+}
