@@ -22,8 +22,18 @@
             <input type="text" class="form-control" id="titleOfPost" placeholder="">
           </div>
           <div class="mb-3">
-            <label for="contentOfPost" class="form-label">What is it?</label>
+            <label for="contentOfPost" class="form-label">Whats going on?</label>
             <textarea class="form-control" id="contentOfPost" rows="3"></textarea>
+          </div>
+          <div id="myFood" class="mb-3">
+            <label for="food" class="form-label">Eating anything?</label>
+            <!-- <input type="text" class="form-control" id="food"> -->
+            <br>
+            <select name="food" id="food">
+              <option value="blank"></option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
           </div>
           <div class="mb-3">
             <label for="beverage" class="form-label"> Drinking anything?</label>
@@ -32,8 +42,8 @@
           <!-- <div class="mb-3">
             <label for="shareButton" class="">Anonomously share this with others? </label>
             <input type="checkbox" id="shareButton">
-          </div>
-          <button type="button" class="btn btn-primary btn-lg mb-2" onclick="postCheck()">I'm Done</button>
+          </div> -->
+          <button type="button" class="btn btn-primary btn-lg mb-2" onclick="deleteVent()">I'm Done</button>
     </div>
     
     <script src="index.js"></script>
