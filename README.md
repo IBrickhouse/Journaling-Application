@@ -4,3 +4,5 @@ The idea of this application is to allow someone to come and vent to the void. I
 
 Planned features:
 Mastodon functionality to allow vent to be saved and sent to the void where others can react accordingly (give support, suggestions, etc.)
+
+Currently hosted at https://symphonious-duckanoo-c15d14.netlify.app
