@@ -58,8 +58,8 @@ drinkSelect.onchange = function drinkSuggestion() {
     }
 }
 
-if ('standalone' in window.navigator && window.navigator.standalone){ //checks if you're in app mode
+// if ('standalone' in window.navigator && window.navigator.standalone){ //checks if you're in app mode
 
-    window.location = 'https://symphonious-duckanoo-c15d14.netlify.app/';  //the URL you want to refer to
+//     window.location = 'https://symphonious-duckanoo-c15d14.netlify.app/';  //the URL you want to refer to
   
-}
+// }
